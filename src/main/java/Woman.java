@@ -22,4 +22,8 @@ public class Woman {
     public void setAge(int age) {
         this.age = age;
         }
+
+    public void print() {
+        System.out.println("I'm a woman");
+    }
 }
