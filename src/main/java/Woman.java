@@ -26,4 +26,8 @@ public class Woman {
     public void print() {
         System.out.println("I'm a woman");
     }
+    @Override
+    public String toString() {
+        return "My name is " + name + ". I'm " + age + " years old.";
+    }
 }
