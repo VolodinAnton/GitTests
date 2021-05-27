@@ -28,10 +28,7 @@ public class Woman {
         System.out.println("I'm a woman");
     }
 
-    @Override
-    public String toString() {
-        return super.toString();
-    }
+
 
 
 }
