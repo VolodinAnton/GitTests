@@ -28,4 +28,8 @@ public class Man {
         System.out.println("I'm a man");
     }
 
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
