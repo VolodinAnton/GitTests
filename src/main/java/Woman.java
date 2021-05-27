@@ -1,6 +1,7 @@
 public class Woman {
     private String name;
     private int age;
+    private String surName;
 
     public Woman(String name, int age) {
         this.name = name;
@@ -26,5 +27,8 @@ public class Woman {
     public void print() {
         System.out.println("I'm a woman");
     }
+
+
+
 
 }
