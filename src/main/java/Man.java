@@ -1,5 +1,6 @@
 public class Man {
     private String name;
+    private String surName;
     private int age;
 
     public Man(String name, int age) {
