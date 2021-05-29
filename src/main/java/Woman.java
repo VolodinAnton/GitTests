@@ -30,8 +30,8 @@ public class Woman {
 
     @Override
     public String toString() {
-        return super.toString();
+        return "I'm a " + this.getClass().getName() +
+                ". My name is " + name +
+                ". I'm " + age + " years old.";
     }
-
-
 }
